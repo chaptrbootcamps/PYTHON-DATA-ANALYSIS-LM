@@ -12,3 +12,19 @@ You will use the data provided to explore/demonstrate the following, using Matpl
 - Companies with the highest violations . Use this [image](https://raw.githubusercontent.com/okothchristopher/tidy_tuesday_data_exploration/master/2020_week_17_GDPR_violations/gdpr_for_top_companies4.png) as a reference 
 - Map the data and make this interactive. Bonus but useful. Use this [image](https://twitter.com/philmassicotte/status/1253460460239761411/photo/1)  and this [image](https://pbs.twimg.com/media/EWNsLw_XsAERssZ?format=png&name=small) as reference. 
 - Breakdown / Distribution and important metrics of fines levied per article. Prepare a Box, plot. Use this [image](https://juliasilge.com/blog/gdpr-violations/index_files/figure-html/unnamed-chunk-5-1.png) for reference. 
+
+
+
+The data dictionary is as follows, 
+|variable |class |description|
+|-----|-----|-----|
+|picture |character	|SVG image of violation country flag
+|name |character |Name of country where violation was enforced
+|price |integer |Fine price in Euros (€)
+|authority |character |Authority that enacted the violation
+|date |character |
+|controller |character |Controller of data - the violator
+|article_violated	 |character |
+|source |character |Original source (URL) of fine data
+
+
